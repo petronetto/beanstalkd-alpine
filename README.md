@@ -32,5 +32,5 @@ $ docker run -d -p 11300:11300 --name beanstalkd petronetto/beanstalkd-alpine
 docker run -d -p 2080:2080 \
            --link beanstalkd \
            --name beanstalk-console \
-           petronetto/beanstalkd-console
+           petronetto/beanstalkd-alpine:console
 ```
